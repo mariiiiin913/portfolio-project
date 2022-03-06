@@ -106,11 +106,6 @@
     justify-content: flex-start;
     text-align: left;
   }
-  .paragraph p {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: left;
-  }
   .primary-link {
     border-radius: 4px;
     padding: 20px 15px;
@@ -120,5 +115,20 @@
     box-shadow: var(--box-shadow);
     color: white;
     margin-left: 20px;
+  }
+  @media (max-width: 748px){
+    img{
+      display: none;
+    }
+    .home-title,
+    .bg-transparent,
+    .primary-link{
+      text-align: center;
+    }
+    .primary-link{
+      display: block;
+      margin: 20px auto;
+    }
+    
   }
   
