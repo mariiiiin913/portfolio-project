@@ -116,7 +116,7 @@
     color: white;
     margin-left: 20px;
   }
-  @media (max-width: 764px){
+  @media (max-width: 767px){
     img{
       display: none;
     }
